@@ -301,7 +301,7 @@ int freeBST(Node* head)
     {
         freeBST(head->right); //오른쪽 자식 노드로 이동
     }
-    free(head); //head 동적할당 해제
+    free(head); //head 동적할당 해제.
 }
 
 
